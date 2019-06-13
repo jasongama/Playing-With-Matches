@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Playing-With-Matches</title>
-
-	<style type="text/css">
+	<link rel="stylesheet" href="styles.css">
+	<!-- <style type="text/css">
         /* CSS goes here */
-        .number  {
-            font-size: 100px;
-            
-   }
-   body{
-    background: blue;
-   }
-   h1{
-       border:solid;
-      text-align: center;
-      margin: 500px;
-
-      }
+        
    
-        </style>
+        </style> -->
 </head>
 <body>
     <div class="number">
-        <h1>67</h1>
+        <h1>7</h1>
     
       </div>
 
+
+
+
+      <script type="text/javascript">
+		// JavaScript code goes here at the bottom
+        var element = document.querySelector(".number");;
+
+        function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+element.innerHTML=( getRandomInt(7));
+
+	</script>
 </body>
 </html>
